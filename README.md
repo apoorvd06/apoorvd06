@@ -1,44 +1,97 @@
-## Hi there 👋
-.github/workflows
-snake.yml
-name: Generate Snake
+# 👋 Hi, I'm Apoorv
 
-on:
-  schedule:
-    - cron: "0 0 * * *"   # runs daily
-  workflow_dispatch:
+💻 Passionate about programming, problem solving, and building small projects to strengthen core computer science concepts.
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name:apoorvd06
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
-          
+---
 
-      - name: Push snake animation
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Generate contribution snake"
-          add: "dist/*.svg"
+## 🚀 About Me
+
+* 🎓 Student exploring **Computer Science Programming and communications**
+* 🐍 Currently working mainly with **Python**
+* 🐧 Exploring **Linux and development environments**
+* 🗄️ Practicing **SQL and database concepts**
+* 📚 Prefer learning independently using platforms like **YouTube, GeeksforGeeks, Udemy, and W3Schools**
+
+I enjoy understanding how systems work and improving my coding skills through hands-on projects.
+
+---
+
+## 🛠️ Skills & Technologies
+
+**Languages**
+
+* Python
+* SQL
+
+**Concepts**
+
+* Data Structures & Algorithms
+* Problem Solving
+* CLI Programs
+* Basic System Programming Concepts
+
+**Tools & Platforms**
+
+* Git & GitHub
+* Linux (learning)
+* VirtualBox
+
+---
+
+## 📂 Projects
+
+### 🏦 ATM Simulation (Python)
+
+A simple command-line ATM system that allows users to:
+
+* Check account balance
+* Withdraw money
+* Deposit money
+* Perform transactions in a continuous loop
+
+Concepts used:
+
+* `while` loops
+* conditional statements
+* user input handling
+* program flow control
+
+---
+
+### ⚖️ BMI Calculator
+
+A beginner-friendly project that calculates Body Mass Index using user input.
+
+Concepts used:
+
+* mathematical formulas
+* input/output
+* conditional logic
+
+---
 
 
-<!--
-**apoorvd06/apoorvd06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## 📈 Current Learning Focus
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* Strengthening **DSA fundamentals**
+* Writing **clean and structured Python programs**
+* Understanding **Linux workflows**
+* Practicing **SQL queries and database operations**
+
+---
+
+## 🎯 Goals
+
+* Build stronger **problem solving skills**
+* Contribute to **open source projects**
+* Create **more advanced real-world projects**
+* Develop a solid **software development foundation**
+
+---
+
+## 📫 Connect With Me
+
+You can explore my repositories to see what I'm currently learning and building.
+
+⭐ *Always learning, always improving.*
